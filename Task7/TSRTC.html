@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TSRTC</title>
+</head>
+<body>
+    <form method="get" autocomplete="off" action="./submit.html">
+        <fieldset>
+            <center>
+                <img src="./ts.jpeg" width="100" alt="tsrtc img">
+                <h2 style="color: blue;">
+                   TELANGANA STATE BOARD TRANSPORT COORDINATION
+                </h2>
+                <h2>
+                    GENERAL PASS APPLICATION
+                </h2>
+            </center>
+        </fieldset>
+        <fieldset>
+            <legend><h2>Applicant Details</h2></legend>
+            <center>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" required style="margin-right: 100px;">
+                <label for="father">Father'/Guardian's Name:</label>
+                <input type="text" name="father's name" id="father" required>
+                <br>
+                <label for="dob">date of birth:</label>
+                <input type="date" name="dob" value="dd/mm/yyyy" id="dob" required style="margin-right: 100px;">
+                <label for="gender">Gender:</label>
+                <input type="radio" name="gender" value="Female" required id="gender">Female
+                <input type="radio" name="gender" value="Male" required id="gender">Male
+                <br>
+                <label for="age">Age As on:</label>
+                <input type="text" name="age" id="age" size="2" minlength="4">Years
+                <input type="text" name="age" id="age" size="2" minlength="2">Months
+                <input type="text" name="age" id="age" size="2" minlength="2">Date
+                <label for="adhaar">Adhaar No:</label>
+                <input type="text" name="adhaar" id="adhaar">
+                <br>
+                <label for="whatsapp">Whatsapp No:</label>
+                <input type="tel" name="Whatsapp"  id="whatsapp" style="margin-right:30px ;">
+                <label for="email">Email Id:</label>
+                <input type="email" id="email" name="email">
+                <br>
+                <label for="File">File</label>
+                <input type="file" name="file" id="file" value="select file">
+             </center>
+        </fieldset>
+        <fieldset>
+            <legend>
+                <h2>
+                    Residential Address Details
+                </h2>
+            </legend>
+            <center>
+                <label for="Address">Aplicant's Address:</label>
+            <textarea name="Address" id="Address" style="margin-right:20px ;"></textarea>
+            <label for="district">District:</label>
+            <select id="district">
+                <option value="district">Hyderabad</option>
+                <option value="district">Karimnagar</option>
+            </select>
+            <br>
+            <label for="Mandal">Mandal:</label>
+            <select id="Mandal">
+                <option value="Mandal">Hyderabad</option>
+                <option value="Mandal">Karimnagar</option>
+            </select>
+            <label for="village">Village:</label>
+            <select id="village">
+                <option value="Village">Hyderabad</option>
+                <option value="village">Karimnagar</option>
+            </select>
+            <br>
+            <label for="pincode">Pincode:</label>
+            <input type="text" pattern="[\d]{6}" name="pincode" id="pincode" title="pincode">
+            </center>
+        </fieldset>
+        <fieldset>
+            <legend>
+                <h2>
+                    Pass Type Details
+                </h2>
+            </legend>
+            <center>
+                <label for="city">City:</label>
+                <select name="city" id="city">
+                    <option value="city">Hyderabad</option>
+                    <option value="city">Karimnagar</option>
+                </select>
+                <br>
+                <label for="type">Pass Type:</label>
+                <select name="pass type" id="type">
+                    <option value="type">--SELECT--</option>
+                    <option value="type">GENERAL</option>
+                    <option value="type">ORDINARY</option>
+                    <option value="type">DELUXE PASS</option>
+                </select>
+    
+            </center>
+
+        </fieldset>
+        <fieldset>
+            <legend>
+                <h2>
+                    Mode Of Payment & Pass Collection
+                </h2>
+            </legend>
+            <center>
+                <label for="payment">Payment Mode:</label>
+                <select name="payment" id="payment">
+                    <option value="payment">Select Payment</option>
+                    <option value="payment">Payment At Counter</option>
+                </select>
+                <br>
+                <label for="PDM">Pass Delivery Mode:</label>
+                <select name="PDM" id="PDM">
+                <option value="PDM">Pass Delivery Mode</option>
+                </select>
+                <br>
+                <label for="P">Center at which you want to collect the pass:</label>
+                <select name="P" id="P">
+                <option value="P">HYD-99</option>
+                <option value="P">HYD-11</option>
+                <option value="P">HYD-34</option>
+                <option value="P">HYD-33</option>
+                <option value="P">HYD-32</option>
+                <option value="P">HYD-23</option>
+                </select>
+                
+            </center>
+        </fieldset>
+        <fieldset>
+            <center>
+                <h1 style="background-color: tomato;">QwErT</h1>
+                <input style="text" name="enter"><br>
+                <input type="submit" value="Submit">
+            </center>
+            
+        </fieldset>
+            
+    </form>
+</body>
+</html
